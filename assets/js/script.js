@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    let url = 'https://pokeapi.co/api/v2/pokemon/';
+    let url = 'https://pokeapi.co/api/v2/pokemon?limit=21';
     fetchData();
 
     // function click (id: nextPage) will led to the next url (next 20 pokemon API)
